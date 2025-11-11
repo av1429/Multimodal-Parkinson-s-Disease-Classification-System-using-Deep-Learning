@@ -23,12 +23,12 @@ This project utilizes three distinct datasets corresponding to **spiral drawings
 ### 🌀 Spiral Drawing Dataset
 - Collected from publicly available handwriting samples of Parkinson’s and healthy individuals.  
 - Each image represents a hand-drawn spiral used to detect tremor irregularities.  
-- Dataset is included in this repository under the `Dataset/` directory.  
+- Dataset is included in this repository under the `dataset/` directory.  
 - Preprocessing: grayscale conversion, normalization, rotation and flip augmentation.
 
 ### 🎤 Voice Feature Dataset
 - Contains extracted acoustic features such as **jitter**, **shimmer**, **pitch**, and **MFCCs** for both PD and healthy subjects.  
-- Dataset is included in this repository under `Dataset/`.  
+- Dataset is included in this repository under `dataset/`.  
 - Each entry includes both feature values and a corresponding label (PD / Healthy).
 
 ### 🚶 Gait Signal Dataset
