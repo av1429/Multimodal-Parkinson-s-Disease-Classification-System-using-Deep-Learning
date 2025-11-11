@@ -95,5 +95,3 @@ This project is licensed under the **MIT License** — feel free to use, modify,
 ## 🏷️ Keywords
 `Parkinson’s Disease` · `Multimodal Deep Learning` · `CNN-LSTM` · `Biomedical AI` · `Machine Learning` · `Voice Analysis` · `Gait Recognition`
 
-`Parkinson’s Disease` · `Multimodal Deep Learning` · `CNN-LSTM` · `Biomedical AI` · `Machine Learning` · `Voice Analysis` · `Gait Recognition`
-
