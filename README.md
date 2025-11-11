@@ -16,6 +16,39 @@ The approach enhances diagnostic accuracy and robustness compared to unimodal sy
 
 ---
 
+## 📦 Dataset Information
+
+This project utilizes three distinct datasets corresponding to **spiral drawings**, **voice features**, and **gait signals** for multimodal Parkinson’s Disease classification.
+
+### 🌀 Spiral Drawing Dataset
+- Collected from publicly available handwriting samples of Parkinson’s and healthy individuals.  
+- Each image represents a hand-drawn spiral used to detect tremor irregularities.  
+- Dataset is included in this repository under the `dataset/spiral/` directory.  
+- Preprocessing: grayscale conversion, normalization, rotation and flip augmentation.
+
+### 🎤 Voice Feature Dataset
+- Contains extracted acoustic features such as **jitter**, **shimmer**, **pitch**, and **MFCCs** for both PD and healthy subjects.  
+- Dataset is included in this repository under `dataset/voice/`.  
+- Each entry includes both feature values and a corresponding label (PD / Healthy).
+
+### 🚶 Gait Signal Dataset
+- The gait dataset was sourced from **PhysioNet’s Gait in Parkinson’s Disease Database**:  
+  🔗 [PhysioNet GaitpDB 1.0.0](https://physionet.org/content/gaitpdb/1.0.0/)  
+- This dataset contains vertical ground reaction force (GRF) signals from multiple sensors attached to the feet of participants.  
+- The signals are used to analyze temporal gait variations and motor control characteristics in PD patients.  
+- Due to its large size, this dataset is **not hosted in this repository**; users may download it directly from the official PhysioNet link above.
+
+---
+
+### 🧹 Data Preprocessing Summary
+| Modality | Preprocessing Steps |
+|-----------|--------------------|
+| Spiral | Grayscale conversion, resizing (128×128), normalization, augmentation |
+| Voice | Feature extraction (MFCC, jitter, shimmer), z-score normalization |
+| Gait | Signal segmentation, denoising, standardization, sequence padding |
+
+---
+
 ## 🧠 Model Architectures
 
 | Modality | Model Type | Accuracy | Key Highlights |
