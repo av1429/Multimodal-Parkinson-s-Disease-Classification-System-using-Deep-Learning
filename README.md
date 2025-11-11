@@ -109,7 +109,8 @@ This project utilizes three distinct datasets corresponding to **spiral drawings
 ## 👥 Authors
 - **Aravinthvasan S**  
   B.Tech ECE (Cyber-Physical Systems), SASTRA Deemed University  
-  Role: Model implementation, architecture design, comparative analysis  
+  Role: Model implementation, architecture design, comparative analysis
+  🔗 **GitHub:** [GitHub Profile](https://github.com/av1429)
 
 - **Armindha Gladia V** — Model evaluation & visualization  
 - **Sanjanah N** — Data preprocessing & documentation  
@@ -118,10 +119,6 @@ This project utilizes three distinct datasets corresponding to **spiral drawings
 
 ## 🪪 License
 This project is licensed under the **MIT License** — feel free to use, modify, and distribute it with attribution.
-
----
-
-🔗 **GitHub:** [GitHub Profile](https://github.com/av1429)
 
 ---
 
